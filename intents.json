@@ -1,0 +1,87 @@
+{
+	"intents":[
+		{
+			"tag":"greeting",
+			"patterns":[
+				"Hi",
+				"Hello",
+				"How are you",
+				"How do you do",
+				"Good Day",
+				"Good Morning",
+				"Good Evening",
+				"Good Afternoon",
+				"Hey"
+			],
+			"responses":[
+				"Hello, how are you!!!",
+				"Hello, Thanks for visiting",
+				"Hello, What can I do for you?",
+				"Hello, How can I help?",
+				"Hi there, how are you!!!",
+				"Hi there, Thanks for visiting",
+				"Hi there, What can I do for you?",
+				"Hi there, How can I help?"
+			]
+		},
+		{
+			"tag":"goodbye",
+			"patterns":[
+				"Bye",
+				"Good Night",
+				"See you again",
+				"See you later"
+			],
+			"responses":[
+				"Bye, Thanks for visiting",
+				"See you later, Thanks for visiting",
+				"Have a nice day",
+				"Bye! See you again!!",
+				"Good Bye, See you again later."
+			]
+		},
+		{
+			"tag":"fees",
+			"patterns":[
+				"Fees",
+				"College Fees",
+				"Cost",
+				"Semester Fees",
+				"How much does each semester cost",
+				"How much to pay"
+			],
+			"responses":[
+				"Fees per semester for B.Tech is 60000, M.Tech is 80000, B.Ca is 60000, M.Ca is 70000",
+				"Total Fees for B.Tech is 540000, M.Tech is 320000, B.Ca is 360000, M.Ca is 280000"
+
+			]
+		},
+		{
+			"tag":"Teacher CSE",
+			"patterns":[
+				"Teacher of CSE",
+				"HOD of CSE",
+				"Head of department of CSE",
+				"SKG",
+				"Sukalyan Goswami"
+			],
+			"responses":[
+				"Sukalyan Goswami(SKG) Sir is the Head of department(Hod) of Computer Science Engineering. Contact Number: 1544654644"
+			]
+		},
+		{
+			"tag":"Admission",
+			"patterns":[
+				"Age of Admission",
+				"Minimum age",
+				"Admission",
+				"Age",
+				"Admission Requirements"
+			],
+			"responses":[
+				"For admmission in UEM applicant must be above or equal to 18 years of age and must have passed higher secondary(For UnderGraduate Course) or a graduation degree(For PostGraduate Course)"
+			]
+		}
+
+	]
+}
